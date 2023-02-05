@@ -1,12 +1,12 @@
 {
 
-  "description": "Adds browser action icon to toolbar to open packaged web page. See https://developer.mozilla.org/en-US/Add-ons/WebExtensions/Examples#open-my-page-button",
+  "description": "",
   "manifest_version": 2,
-  "name": "open-my-page",
+  "name": "cifra",
   "version": "1.0",
-  "homepage_url": "https://github.com/mdn/webextensions-examples/tree/master/open-my-page-button",
+  "homepage_url": "",
   "icons": {
-    "48": "icons/page-48.png"
+    "48": ""
   },
 
   "background": {
@@ -14,7 +14,7 @@
   },
 
   "browser_action": {
-    "default_icon": "icons/page-32.png"
+    "default_icon": ""
   }
 
 }
