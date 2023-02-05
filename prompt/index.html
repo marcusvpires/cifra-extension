@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>prompt</title>
+</head>
+
+<body>
+    <div class="controller" id="controller">
+        <button class="toggler" id="toggleController">◂</button>
+        <div class="title" style="margin-top: 0rem;">SISTEMA</div>
+        <div class="config" style="cursor: pointer;">
+            <span>Adcionar à lista</span>
+        </div>
+        <div class="config" style="cursor: pointer;">
+            <span>Sair do prompt</span>
+        </div>
+        <div class="title">CONFIGURAÇÕES</div>
+        <div class="config">
+            <div class="button" id="decreaseSize" style="font-size: .7rem;">A</div>
+            <span>Tamanho</span>
+            <div class="button" id="increaseSize" style="font-size: .9rem;">A</div>
+        </div>
+        <div class="config" id="direction" style="cursor: pointer;">
+            <span>Modo coluna</span>
+        </div>
+        <div class="config" id="toggleTablatura" style="cursor: pointer;">
+            <span>Tablatura</span>
+        </div>
+        <div class="title">AUTO ROLAGEM</div>
+        <div class="buttons-line">
+            <img class="icon" src="./public/rewind.png" alt="">
+            <img class="icon" id="toggleAutoScroll" style="padding-left: .6rem;" src="./public/play-button.png" alt="">
+            <img class="icon" src="./public/fast-forward.png" alt="">
+            <div class="icon" id="scrollSpeedDisplay" style="width: 3rem;border-radius: 10px;">10</div>
+        </div>
+        <input type="range" name="autoScroll" id="scrollSpeed" min="1" max="201" step="1" style="cursor: pointer;">
+    </div>
+    <div class="cifra" id="cifra">
+        <pre contenteditable="true" id="cifra-code"><b>A7M</b>  <b>Bm7</b>
+Ah,      se o mundo inteiro
+        <b>C#m7</b>
+Me pudesse ouvir
+                <b>Bm7</b>
+Tenho muito pra contar
+<b>E7(4/9)</b>                 <b>A7M</b>  <b>E7(4/9)</b>
+        Dizer que aprendi
+
+<b>A7M</b>  <b>Bm7</b>
+E        na vida a gente
+        <b>C#m7</b>
+Tem que entender
+                <b>Bm7</b>
+Que um nasce pra sofrer
+<b>E7(4/9)</b>                   <b>A7M</b>
+        Enquanto o outro ri
+
+[Solo] <b>Bm7</b>  <b>C#m7</b>  <b>D7M</b>  <b>E7</b>
+
+    <b>A7M</b>  <b>Bm7</b>
+Mas       quem sofre
+                    <b>C#m7</b>
+Sempre tem que procurar
+            <b>Bm7</b>
+Pelo menos vir a achar
+<b>E7(4/9)</b>               <b>A7M</b>  <b>E7(4/9)</b>
+        Razão para viver
+
+    <b>A7M</b>  <b>Bm7</b>
+Ver       na vida algum motivo
+    <b>C#m7</b>
+Pra sonhar
+                <b>Bm7</b>
+Ter um sonho todo azul
+<b>E7(4/9)</b>                 <b>A7M</b>
+        Azul da cor do mar
+
+[Solo] <b>Bm7</b>  <b>C#m7</b>  <b>D7M</b>  <b>E7</b>
+
+    <b>A7M</b>  <b>Bm7</b>
+Mas       quem sofre
+                    <b>C#m7</b>
+Sempre tem que procurar
+            <b>Bm7</b>
+Pelo menos vir a achar
+<b>E7(4/9)</b>               <b>A7M</b>  <b>E7(4/9)</b>
+        Razão para viver
+
+    <b>A7M</b>  <b>Bm7</b>
+Ver       na vida algum motivo
+    <b>C#m7</b>
+Pra sonhar
+                <b>Bm7</b>
+Ter um sonho todo azul
+<b>E7(4/9)</b>                 <b>A7M</b>
+        Azul da cor do mar
+
+[Solo] <b>Bm7</b>  <b>C#m7</b>  <b>D7M</b>  <b>E7</b>  <b>A7M</b>
+
+[Parte 1 de 4]
+<span class="tablatura">
+    <b>Bm7</b>
+E|-5-2-2--2--------------2-2-0-0-----------
+B|-3------3-3-3---3------3-3-0-0-----------
+G|-2------2---------4-4--2-2-0-0-----------
+D|-4---------------------4-4-0-0-----------
+A|-2------------2--------2-2-0-0-----------
+E|-----------------------------------------
+                            ↓ ↑ ↓ ↑           
+</span>
+[Parte 2 de 4]
+<span class="tablatura">
+    <b>C#m7</b>
+E|-7-4-4--4--------------4-4-0-0-----------
+B|-5------5-5-5---5------5-5-0-0-----------
+G|-4------4---------6-6--4-4-0-0-----------
+D|-6---------------------6-6-0-0-----------
+A|-4------------4--------4-4-0-0-----------
+E|-----------------------------------------
+                            ↓ ↑ ↓ ↑           
+</span>
+[Parte 3 de 4]
+<span class="tablatura">
+    <b>D7M</b>
+E|-9---------9-------12-9-9--9-9-0-0-------
+B|-7-10-10--10-7-7-----------7-7-0-0-------
+G|-7---------7---------------7-7-0-0-------
+D|-0---------------0---------0-0-0-0-------
+A|-----------------------------------------
+E|-----------------------------------------
+                                ↓ ↑ ↓ ↑       
+</span>
+[Parte 4 de 4]
+<span class="tablatura">
+    <b>E7</b>
+E|-0--0--0-0--0-2-5-2----------------------
+B|-0--0--0-0--0-0-0-0----------------------
+G|-1--1--1-1--1-1--------------------------
+D|-0--0--0-0-------------------------------
+A|-2--2--2-2-------------------------------
+E|-0--0--0-0-------------------------------
+</span>
+</pre>
+    </div>
+    <script src="./scripts.js"></script>
+    <script src="./watch.js"></script>
+</body>
+
+</html>
