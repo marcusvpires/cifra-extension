@@ -45,7 +45,7 @@ const handleDirection = () => {
         cifraCode.style.padding = "0 50vw"
 
         let columnCount = 1
-        while (cifraCode.clientHeight > window.innerHeight - 60 || columnCount > 20 ) {
+        while (cifraCode.clientHeight > window.innerHeight - 60 || columnCount > 20) {
             cifraCode.style.columnCount = columnCount
             columnCount++
         }
@@ -67,7 +67,7 @@ const updateCollum = () => {
         do {
             cifraCode.style.columnCount = columnCount
             columnCount++
-        } while (cifraCode.clientHeight > window.innerHeight - 60 || columnCount > 20 )
+        } while (cifraCode.clientHeight > window.innerHeight - 60 || columnCount > 20)
     }
 }
 
@@ -127,21 +127,29 @@ const handleScrollSpeed = (event) => {
 // função principal do sistema, executada em quanto o site é carregado
 // adciona todas as funções do controller
 const main = () => {
-    
+
     // esconde ou mostra o menu de controle
     document.getElementById("toggleController").addEventListener("click", handleToggleController)
 
     // configurações
-    
+
     document.getElementById("increaseSize").addEventListener("click", handleIncreaseSize)
     document.getElementById("decreaseSize").addEventListener("click", handleDecreaseSize)
     document.getElementById("direction").addEventListener("click", handleDirection)
     document.getElementById("toggleTablatura").addEventListener("click", handleToggleTablatura)
-    
+
     // auto rolagem
 
     document.getElementById("toggleAutoScroll").addEventListener("click", handleToggleAutoScroll)
     document.getElementById("scrollSpeed").addEventListener("input", handleScrollSpeed)
+
+    // importa cifra do banco de dados
+
+        browser.storage.sync.get("targetCifra").then(value => {
+        console.log(value)
+        if (value.targetCifra) document.getElementById("cifra-code").innerHTML = value.targetCifra
+    })
+    
 }
 
 main()

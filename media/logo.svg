@@ -1,0 +1,21 @@
+<svg id="eft4wHd2SuG1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+    viewBox="0 0 300 300" shape-rendering="geometricPrecision" text-rendering="geometricPrecision">
+    <g transform="matrix(1.100422 0 0 1.100424-15.063301-15.0636)">
+        <g transform="matrix(1.691764 0 0 1.367677-130.203915-89.200251)">
+            <path
+                d="M-29.879727,0c0-16.502118,13.377609-29.879727,29.879727-29.879727s29.879727,13.377609,29.879727,29.879727-13.377609,29.879727-29.879727,29.879727-29.879727-13.377609-29.879727-29.879727Z"
+                transform="translate(179.879727 237.198617)" stroke-width="0" />
+            <path d="M0,0h22.703635v114.373056h-22.703635L0,0Z"
+                transform="translate(187.05582 121.868632)" stroke-width="0" />
+            <path
+                d="M187.055819,135.673883v-52.798684c0,0,25.046623.975362,44.082967,11.440798c15.939959,8.763165,18.301435,35.724714,11.416952,35.724714-5.672734,0-32.796284-7.21515-32.796284-7.21515l-.000001,12.848322h-22.703634Z"
+                transform="translate(.000001-.162978)" stroke-width="0.6" />
+        </g>
+        <rect width="163.30529" height="38.709855" rx="15" ry="15"
+            transform="matrix(.889925 0 0 0.6587 13.688605 84.40767)" stroke-width="0" />
+        <rect width="163.30529" height="38.709855" rx="15" ry="15"
+            transform="matrix(.555946 0 0 0.658701 13.688605 186.558235)" stroke-width="0" />
+        <rect width="163.30529" height="38.709855" rx="15" ry="15"
+            transform="matrix(.889925 0 0 0.658701 13.688605 133.09263)" stroke-width="0" />
+    </g>
+</svg>
